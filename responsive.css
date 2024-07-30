@@ -1,0 +1,328 @@
+@media (max-width: 426px) {
+    /* Navbar Settings */
+    .menu-outline {
+        display: inline-block;
+    }
+
+    .navbarContainer {
+        width: 425px;
+        height: 80px;
+        background-color: rgb(0, 18, 33);
+    }
+
+    .navbarBrand {
+        margin: 12.5px 30px 100px;
+    }
+
+    .brand {
+        font-size: 35px;
+    }
+
+    .navbarButton {
+        position: absolute;
+        top: 55px;
+        right: -120%;
+        background-color: rgb(0, 18, 33);
+        width: 15rem;
+        height: auto;
+        transition: 0.3s;
+        display: block;
+        margin-right: -20px;
+    }
+
+    .navbarButton.active {
+        right: 0;
+    }
+
+    .navbarButton a {
+        color: rgb(0, 245, 255);
+        display: block;
+        margin: 1.5rem;
+        padding: 8px;
+        font-size: 15px;
+        line-height: 5px;
+    }
+
+    .navbarButton a:hover {
+        color: rgb(150, 150, 150);
+        transition: 0.5s ease;
+    }
+
+    .navbarButton a::after {
+        transform-origin: 0 0;
+    }
+
+    .navbarButton a:hover::after {
+        transform: scaleX(0.2);
+    }
+
+    .navbar-extra {
+        font-size: 50px;
+        margin-left: 160px;
+        margin-top: 10px;
+    }
+
+    /* Home Page Settings */
+    .homePageContent {
+        display: block;
+    }
+
+    .homePageProfile {
+        margin-top: 100px;
+    }
+
+    .homePageProfile img {
+        width: 240px;
+        margin-left: 50px;
+        box-shadow: 0px 0px 15px rgba(0, 245, 255, 0.75);
+    }
+
+    .homePageProfile img:hover {
+        box-shadow: 0px 0px 25px rgba(0, 245, 255, 0.75);
+    }
+
+    .homePageText {
+        color: white;
+        margin-top: 20px;
+        line-height: 7.5px;
+        margin-left: 0px;
+    }
+    
+    .homePageText p {
+        font-weight: 600;
+    }
+    
+    .homePageText #hello {
+        font-size: 25px;
+    }
+    
+    .homePageText #name {
+        font-size: 25px;
+        color: rgb(0, 245, 255);
+        text-shadow: 0px 0px 25px rgba(0, 245, 255, 0.5);
+    }
+    
+    .homePageText #me {
+        font-size: 15px;
+    }
+    
+    .homePageText #me span {
+        color: yellow;
+        text-shadow: 0px 0px 25px rgba(255, 255, 0, 0.5);
+    }
+    
+    .homePageText #desc {
+        font-size: 11px;
+        width: 22rem;
+        line-height: 17.5px;
+        margin-top: 0px;
+        margin-left: 0px;
+        font-weight: 500;
+    }
+
+    .more {
+        margin-top: 27.5px;
+    }
+    
+    .more a {
+        font-size: 10px;
+        color: white;
+        text-decoration: none;
+        border: 2.5px solid white;
+        padding: 8px;
+        margin-left: 0px;
+    }
+    
+    .more a:hover {
+        background-color: rgb(0, 245, 255);
+        border: none;
+        transition: 0.25s ease-in-out;
+        box-shadow: 0px 0px 20px rgba(0, 245, 255, 0.5);
+        color: transparent;
+    }
+
+    /* About Page */
+    .aboutMe {
+        padding-top: 60px;
+        margin-top: 10px;
+    }
+
+    .aboutMeContentTop {
+        display: block;
+    }
+
+    .aboutMeText {
+        line-height: 10px;
+        margin-left: -60px;
+        margin-top: 50px;
+    }
+
+    .aboutA {
+        font-size: 25px;
+        font-weight: 500;
+        text-decoration: 2px solid rgb(255, 255, 255) underline;
+    }
+    
+    .aboutB {
+        font-size: 15px;
+        color: rgba(255, 255, 0);
+        text-shadow: 0px 0px 30px rgb(255, 255, 0);
+    }
+    
+    .aboutC {
+        font-size: 13px;
+        width: 345px;
+        line-height: 20px;
+    }
+
+    .aboutMeBio {
+        display: block;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-size: 12px;
+        width: 345px;
+        line-height: 20px;
+        border-bottom: 1px solid rgb(255, 255, 255);
+        padding-bottom: 10px;
+    }
+
+    .cvdownload a {
+        font-size: 10px;
+        padding: 4px;
+    }
+
+    .talk a {
+        font-size: 10px;
+        padding: 4px;
+    }
+
+    /* Skills */
+    .skillsContent {
+        margin-top: 30px;
+        margin-left: 40px;
+        display: block;
+    }
+
+    .softskills {
+        padding-bottom: 30px;
+    }
+
+    .softskills h3 {
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    .hardskills h3 {
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    .s0text {
+        display: flex;
+        justify-content: space-between;
+        width: 345px;
+    }
+
+    .s1text {
+        display: flex;
+        justify-content: space-between;
+        width: 345px;
+    }
+
+    .s2text {
+        display: flex;
+        justify-content: space-between;
+        width: 345px;
+    }
+
+    .s3text {
+        display: flex;
+        justify-content: space-between;
+        width: 345px;
+    }
+
+    .s4text {
+        display: flex;
+        justify-content: space-between;
+        width: 345px;
+    }
+
+    .s5text {
+        display: flex;
+        justify-content: space-between;
+        width: 345px;
+    }
+
+    .s6text {
+        display: flex;
+        justify-content: space-between;
+        width: 345px;
+    }
+
+    .s7text {
+        display: flex;
+        justify-content: space-between;
+        width: 345px;
+    }
+
+    .bar {
+        background: rgb(88, 88, 88);
+        margin-top: -10px;
+        display: block;
+        height: 5px;
+        width: 345px;
+        border-radius: 20px;
+    }
+
+    /* Project */
+    .projectContainer {
+        padding-top: 60px;
+        margin-top: 0px;
+    }
+
+    .projectContent h2 {
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .boxArea {
+        display: grid;
+        grid-template-columns: repeat(1, 0.8fr);
+        grid-gap: 60px;
+        padding-bottom: 60px;
+        justify-content: center;
+    }
+
+    .box {
+        border-radius: 10px;
+        height: 170px;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    }
+
+    .boxOverlay h3 {
+        margin-top: 10px;
+    }
+
+    .boxOverlay p {
+        width: 300px;
+    }
+
+    /* Footer */
+    .footer {
+        height: 100px;
+    }
+
+    .footerContent {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .footer h1 {
+        margin-left: 30px;
+        width: 350px;
+        line-height: 20px;
+    }
+}
